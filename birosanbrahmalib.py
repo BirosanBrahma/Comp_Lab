@@ -1,3 +1,6 @@
+#####   BIROSAN BRAHMA   2311053   #####
+#####    MY LIBRARY     #####
+
 import numpy as np
 import matplotlib.pyplot as plt 
 
@@ -133,4 +136,5 @@ def LCG(seed):
     for _ in range(10000):
         state = (a * state + c) % m
         L.append(state / m)  # normalize only for output
+
     return L
